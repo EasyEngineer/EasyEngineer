@@ -1,2 +1,2 @@
-# EasyEngineer.github.io
+# EasyEngineer
 EasyEngineer is a website that has nothing inside it but soon it will.
