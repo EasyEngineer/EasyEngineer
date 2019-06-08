@@ -1,14 +1,12 @@
-html, body {
-    font-size: 40px;      
-    margin:0; /* remove default margin */
-    padding:0; /* remove default padding */
-    width:100%; /* take full browser width */
-    height:100%; /* take full browser height*/
+html, body {    
+     margin:0; /* remove default margin */
+     padding:0; /* remove default padding */
+     width:100%; /* take full browser width */
+     height:100%; /* take full browser height*/
+	 background: url('../images/BetterBackground.jpg') no-repeat 0 -400px;
 }
 body{
     font: 15px/1.5 Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
     background-color:#e6e6e6;
 }
 /* Global */
@@ -26,9 +24,9 @@ ul{
 /* Header */
 header{
     background:#ffb366;
-    padding-top:20px;
-    min-height: 60px;
-    border-bottom: #804000 3.5px solid;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #804000 4px solid;
 }
 
 header a{
@@ -70,15 +68,26 @@ header a:hover{
 
 
 
+/* C_Projects_Projects */
 
 
 
+#C_Projects h1{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
 
+#C_Projects p{
+	text-align: center;
+	font-size:30px
+}
 
-
-
-
-
+#C_Projects button{
+	text-align: center;
+	font-size:40px
+}
 
 
 
@@ -98,5 +107,4 @@ header a:hover{
 }
 #send{
     padding: 10px;
-    background-color:#e6e6e6;
 }
