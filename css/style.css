@@ -109,3 +109,8 @@ header a:hover{
     font-size: 30px;
     text-align: center;
 }
+
+textarea {
+    resize: horizontal;
+}
+
